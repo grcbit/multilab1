@@ -1,0 +1,418 @@
+<section class="oe_container oe_dark lead">
+    <div class="oe_row">
+        <div class="oe_row oe_spaced">
+            <h2 class="oe_slogan" style="color: #1b394e">Credit Limit</h2>
+            <div class="oe_span12" style="font-size: large;">
+                <p>
+                    A credit limit is the maximum amount of credit offered to a customer. Set up a credit limit ensures
+                    that the amount of this credit is consistent with the financial capacities of each customer. Set up
+                    credit limits is one of the key tools to avoid overdue invoices and bad debts.
+                </p>
+                <p>
+                    This application provides functionality of set credit limit for individual customers.
+                    When customer request for goods and in Odoo while confirming the quotation system will check past
+                    due amount of the customer and it will compare with his credit limit. If order amount is more than
+                    customer's credit limit system will automatically update order status as 'CC HOLD'.
+                </p>
+                <p>
+                    The credit limit is used to limit the amount of loss that a business will sustain if a customer does
+                    not pay. The amount of a credit limit is established by the credit department. The amount of the
+                    credit limit is based on a number of factors, such as:
+                </p>
+                <p>1) A customer's credit score.</p>
+                <p>2) The customer's payment history with the company.</p>
+                <p>3) The customer's financial results and financial position, as described in its financial
+                    statements.</p>
+                <p>4) The presence or absence of any personal guarantees or other collateral.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_tooltip text-center mb-4 mt-4 border-top border-bottom position-relative" style="height: 4px;">
+            <i class="fa fa-circle fa-2x position-absolute"
+               style="color: #1b394e; background: #fff; height: 50px; width: 50px; font-size: 20px; margin-top: -10px;margin-left: -25px;"></i>
+        </div>
+        <div class="col-12 pb-4">
+            <div class="row">
+                <div class="col-5">
+                    <h4>This Application is compatible with</h4>
+                </div>
+                <div class="col-7">
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="Community">
+                                <span style="margin-right: 10px;"><img src="tick.svg" style="width: 25px;height: 25px;"></span>
+                                <span>Community</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="Enterprice">
+                                <span style="margin-right: 10px;"><img src="tick.svg" style="width: 25px;height: 25px;"></span>
+                                <span>Enterprice</span>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="Odoo_sh">
+                                <span style="margin-right: 10px;"><img src="tick.svg" style="width: 25px;height: 25px;"></span>
+                                <span>Odoo.sh</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan" style="color: #1b394e">Key Features</h2>
+        <div style="border-bottom: 2px solid #1b394e; width: 20%; margin: 15px auto"></div>
+        <div class="oe_span12" style="font-size: large;">
+            <ul class="list-unstyled">
+                <li><i class="fa fa-check text-primary"></i> Allow to set credit limit for individual customers.</li>
+                <li><i class="fa fa-check text-primary"></i> System will automatically check customer credit limit and
+                    update order status as 'CC HOLD'.
+                </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container"
+         style="font-family: opensanslite; src:('OpenSans-Light.tff')">
+    <div>
+        <h2 class="oe_slogan" style="color: #1b394e">Assign Credit Limit on Customer</h2>
+        <div style="border-bottom: 2px solid #1b394e; width: 20%; margin: 15px auto"></div>
+        <div style="font-family: sans-serif;font-size: 18px;margin-top: 15px;margin-left: 15px; text-align: left;">
+            On customer record, user can assign credit limit.
+        </div>
+        <div style="color: #444; margin-top: 15px;">
+            <div style="margin-top: 15px;margin-left: 15px;">
+                <img src="confg_customer_credit_limit.png" style="width: 100%; height: auto">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container"
+         style="font-family: opensanslite; src:('OpenSans-Light.tff')">
+    <div>
+        <h2 class="oe_slogan" style="color: #1b394e">Create Sale Order</h2>
+        <div style="border-bottom: 2px solid #1b394e; width: 20%; margin: 15px auto"></div>
+        <div style="font-family: sans-serif;font-size: 18px;margin-top: 15px;margin-left: 15px; text-align: left;">
+            Once sales person will create the quotation and proceed to confirm, system will check total amount (past due
+            amount of customer + order amount) and compare with customer's credit limit if amount is greater then credit
+            limit then system will put order in 'CC HOLD' other wise allow to create delivery.
+        </div>
+        <div style="color: #444; margin-top: 15px;">
+            <div style="margin-top: 15px;margin-left: 15px;">
+                <img src="customer_sale_order.png" style="width: 100%; height: auto">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="oe_container"
+         style="font-family: opensanslite; src:('OpenSans-Light.tff')">
+    <div>
+        <h2 class="oe_slogan" style="color: #1b394e">Credit Code Hold</h2>
+        <div style="border-bottom: 2px solid #1b394e; width: 20%; margin: 15px auto"></div>
+        <div style="font-family: sans-serif;font-size: 18px;margin-top: 15px;margin-left: 15px; text-align: left;">
+            If order is goes in 'CC HOLD' stage, then it's require Sales / Account manager approval. Sales Manager and Account manager can approve
+            or reject hold order.
+        </div>
+        <div style="color: #444; margin-top: 15px;">
+            <div style="margin-top: 15px;margin-left: 15px;">
+                <img src="cc_hold.png" style="width: 100%; height: auto">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="oe_container"
+         style="font-family: opensanslite; src:('OpenSans-Light.tff')">
+    <div>
+        <h2 class="oe_slogan" style="color: #1b394e">Approve/Reject Hold Orders</h2>
+        <div style="border-bottom: 2px solid #1b394e; width: 20%; margin: 15px auto"></div>
+        <div style="font-family: sans-serif;font-size: 18px;margin-top: 15px;margin-left: 15px; text-align: left;">
+            Sales manager and Account manager can view all credit hold orders and update status approve/reject with amount.
+        </div>
+        <div style="color: #444; margin-top: 15px;">
+            <div style="margin-top: 15px;margin-left: 15px;">
+                <img src="dashboard_approve.png" style="width: 100%; height: auto">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="oe_container"
+         style="font-family: opensanslite; src:('OpenSans-Light.tff')">
+    <div>
+        <h2 class="oe_slogan" style="color: #1b394e">Approved Order</h2>
+        <div style="border-bottom: 2px solid #1b394e; width: 20%; margin: 15px auto"></div>
+        <div style="font-family: sans-serif;font-size: 18px;margin-top: 15px;margin-left: 15px; text-align: left;">
+            Order can be proceed for delivery order once get the approval from Sales / Account manager.
+        </div>
+        <div style="color: #444; margin-top: 15px;">
+            <div style="margin-top: 15px;margin-left: 15px;">
+                <img src="after_approve.png" style="width: 100%; height: auto">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container"
+         style="font-family: opensanslite; src:('OpenSans-Light.tff')">
+    <div>
+        <h2 class="oe_slogan" style="color: #1b394e">Approval History</h2>
+        <div style="border-bottom: 2px solid #1b394e; width: 20%; margin: 15px auto"></div>
+        <div style="font-family: sans-serif;font-size: 18px;margin-top: 15px;margin-left: 15px; text-align: left;">
+            Approval history will be maintain on sales order.
+        </div>
+        <div style="color: #444; margin-top: 15px;">
+            <div style="margin-top: 15px;margin-left: 15px;">
+                <img src="approval_history.png" style="width: 100%; height: auto">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan">Connect with Us on</h2>
+        </div>
+        <center>
+            <a href="https://www.facebook.com/Synconics-Technologies-Official-Odoo-Partner-312564668790997/" target="_blank">
+            <img src="facebook_new.png" width="20%" class="mt8"/>
+            </a>
+            <a href="https://www.instagram.com/synconics_technologies/" target="_blank">
+            <img src="instagram_new.png" width="20%" class="mt8"/>
+            </a>
+            <a href="https://www.linkedin.com/company/synconics-technologies-p-ltd-" target="_blank">
+            <img src="linkedin_new.jpg" width="20%" class="mt8"/>
+            </a>
+            <a href="https://twitter.com/Synconics" target="_blank">
+            <img src="twitter_new.png" width="20%" class="mt8"/>
+            </a>
+            <br/>
+            <a href="https://www.youtube.com/user/synconics" target="_blank">
+            <img src="youtube_new.png" width="20%" class="mt8"/>
+            </a>
+        </center>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+             <h2 class="oe_slogan"><a href="https://apps.odoo.com/apps/modules/category/Accounting/browse?order=Newest&search=synconics" target="_blank" style="color: #000000 !important;">Suggested Products</a></h2>
+        </div>
+        <div class="col-md-4">
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div id="slider_data" class="row carousel slide mt64 mb32" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="min-height: 0px;">
+                <div class="col-xs-12 col-sm-4 col-md-4 mb16 mt16" style="float: left;
+                ">
+                    <a href="https://apps.odoo.com/apps/modules/13.0/woo_commerce_connector/" target="_blank">
+                        <div style="box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);border-radius: 10px;text-align: center;">
+                           <img class="img img-responsive center-block" style="border-top-left-radius: 10px;border-top-right-radius: 10px;    height: 125px;" src="suggested_product/woo_commerce_connector.jpg">
+                           <h4 class="mt0" style="padding:6% 4%;text-align: center;white-space: nowrap;width: 100%;overflow: hidden;text-overflow: ellipsis;font-family: Roboto-medium;">
+                              WooCommerce Connector
+                           </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 mb16 mt16" style="float: left;
+                ">
+                    <a href="https://apps.odoo.com/apps/modules/13.0/sync_magento_connector/" target="_blank">
+                        <div style="box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);border-radius: 10px;text-align: center;">
+                           <img class="img img-responsive center-block" style="border-top-left-radius: 10px;border-top-right-radius: 10px;    height: 125px;" src="suggested_product/sync_magento_connector.png">
+                           <h4 class="mt0" style="padding:6% 4%;text-align: center;white-space: nowrap;width: 100%;overflow: hidden;text-overflow: ellipsis;font-family: Roboto-medium;">
+                              Odoo Magento 2 Connector
+                           </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 mb16 mt16" style="float: left;
+                ">
+                    <a href="https://apps.odoo.com/apps/modules/13.0/sync_xero_connector/" target="_blank">
+                        <div style="box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);border-radius: 10px;text-align: center;">
+                           <img class="img img-responsive center-block" style="border-top-left-radius: 10px;border-top-right-radius: 10px;    height: 125px;" src="suggested_product/sync_xero_connector.png">
+                           <h4 class="mt0" style="padding:6% 4%;text-align: center;white-space: nowrap;width: 100%;overflow: hidden;text-overflow: ellipsis;font-family: Roboto-medium;">
+                              Xero Connector (OAuth 2.0)
+                           </h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="carousel-item" style="min-height: 0px;">
+                <div class="col-xs-12 col-sm-4 col-md-4 mb16 mt16" style="float: left;
+                ">
+                    <a href="https://apps.odoo.com/apps/modules/13.0/authorize_net/" target="_blank">
+                        <div style="box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);border-radius: 10px;text-align: center;">
+                           <img class="img img-responsive center-block" style="border-top-left-radius: 10px;border-top-right-radius: 10px;    height: 125px;" src="suggested_product/authorize_net.png">
+                           <h4 class="mt0" style="padding:6% 4%;text-align: center;white-space: nowrap;width: 100%;overflow: hidden;text-overflow: ellipsis;font-family: Roboto-medium;">
+                              Backend Payment Acquirer: Authorize.net
+                           </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 mb16 mt16" style="float: left;
+                ">
+                    <a href="https://apps.odoo.com/apps/modules/13.0/sync_payment_beanstream/" target="_blank">
+                        <div style="box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);border-radius: 10px;text-align: center;">
+                           <img class="img img-responsive center-block" style="border-top-left-radius: 10px;border-top-right-radius: 10px;    height: 125px;" src="suggested_product/sync_payment_beanstream.png">
+                           <h4 class="mt0" style="padding:6% 4%;text-align: center;white-space: nowrap;width: 100%;overflow: hidden;text-overflow: ellipsis;font-family: Roboto-medium;">
+                              Beanstream(Bambora) Payment Acquirer
+                           </h4>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4 mb16 mt16" style="float: left;
+                ">
+                    <a href="https://apps.odoo.com/apps/modules/13.0/sync_payment_square/" target="_blank">
+                        <div style="box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);border-radius: 10px;text-align: center;">
+                           <img class="img img-responsive center-block" style="border-top-left-radius: 10px;border-top-right-radius: 10px;    height: 125px;" src="suggested_product/sync_payment_square.png">
+                           <h4 class="mt0" style="padding:6% 4%;text-align: center;white-space: nowrap;width: 100%;overflow: hidden;text-overflow: ellipsis;font-family: Roboto-medium;">
+                              Integration of Square Payment Acquirer with Odoo
+                           </h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#slider_data" data-slide="prev" style="left:-25px;width: 35px;color: #000;">
+        <span class="carousel-control-prev-icon"><i class="fa fa-chevron-left" style="font-size:24px"></i></span>
+        </a>
+        <a class="carousel-control-next" href="#slider_data" data-slide="next" style="right:-25px;width: 35px;color: #000;">
+        <span class="carousel-control-next-icon"><i class="fa fa-chevron-right" style="font-size:24px"></i></span>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced" style="width: 100%;">
+        <div class="oe_span12" style="width: 100%;">
+            <h2 class="oe_slogan">Free Support</h2>
+        </div>
+        <div class="oe_span12" style="width: 100%;">
+            <span>1) One month free bug support period will be offered pertaining to any one server used, testing or live.</span><br/>
+            <span>2) If an error appears in our app due to other custom modules installed in your system, we will charge for our efforts to resolve those errors. </span><br/>
+            <span>3) Please refer the document for configuration. If you need our support for configuration, please request our paid support. </span><br/>
+            <span>4) Please note that you are not allowed to distribute or resell this module after purchase. </span><br/>
+            <span>5) This module is tested and working on Odoo vanilla with Ubuntu OS. </span><br/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <h2 class="oe_slogan"><a href="https://support.synconics.com/helpdesk/support-1/submit" style="color: #000000 !important;"> Get Help & Support</a></h2>
+        </div>
+        <div class="oe_slogan oe_spaced text-center">
+            <a class="btn btn-success mt8" title="Get Help !" style="background-color: rgb(31, 16, 140); color: rgb(255, 255, 255) !important; position: relative; overflow: hidden;" href="https://support.synconics.com/helpdesk/support-1/submit"><span class="o_ripple" style="height: 61px; width: 61px; top: -12.9688px; left: -8.76562px;"></span> Help & Support </a>&nbsp;&nbsp;
+            <a class="btn btn-success mt8" title="Request New Features now !" style="background-color: rgb(31, 16, 140); color: rgb(255, 255, 255) !important; position: relative; overflow: hidden;" href="http://www.synconics.com/opensource-erp-implementation-odoo-partner-india-gujarat-ahmedabad-expert-company-contact-us/"> Request New Features </a>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_slogan oe_spaced">
+            <span style="font-size: 20px">Checkout Other Apps Developed By Synconics Technologies <a href="https://apps.odoo.com/apps/modules/browse?search=synconics">Click Here</a></span>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12" style="float: none;">
+            <h2 class="oe_slogan"><a href="http://www.synconics.com/" style="color: #000000 !important;"> Our Services</a></h2>
+        </div>
+        <div class="oe_menu" style="display: flex;justify-content: center;align-items: center;flex-wrap: wrap;">
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-onpremise-cloudhosting-installation-expert/">Odoo ERP Installation</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-version-legacy-system-migration-upgradation-expert/">Odoo ERP Migration</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/organizational-digital-stratagy-legacy-system-transformation-modernisation/">Digital Stratagy</a>
+            </li>
+
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-module-configuration-setting-expert/">Odoo ERP configuration</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-onsite-onpremise-remote-working-monthly-projectwise-dedicated-functional-technical-expert-resources/">Odoo ERP Staffing</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/organizational-business-process-reengineering-digital-transformation-system-application-technology-selection/">Digital Technology Selection</a>
+            </li>
+
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-module-customization-expert/">Odoo ERP Customization</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-onpremise-remote-functional-training-by-expert-trainers/">Odoo Functional Training</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/organisational-digital-transformation-system-application-technology-selection-implementation/">Digital Transformation Implementation</a>
+            </li>
+
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-new-module-product-development-expert/">Odoo ERP New Module Development</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-onpremise-remote-technical-training-by-expert-trainers/">Odoo ERP Technical Training</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/organizational-business-process-reengineering-digital-transformation-legacy-system-application-technology-migration-modernisation/">Legacy Modernization</a>
+            </li>
+
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-integration-e-commerce-payment-gateway-document-management-shipping-accounting/">Odoo ERP Integrations</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/odoo-opensource-erp-expert-support-services/">Odoo ERP Support</a>
+            </li>
+            <li class="oe_flex_li" style="flex: 0 0 30%;text-align: left;">
+                <a href="http://www.synconics.com/organizational-business-process-reengineering-digital-transformation/">Organizational Transformation</a>
+            </li>
+
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced text-center">
+        <div class="oe_span12">
+            <span style="font-size: 20px;text-align: right;"><h2 class="oe_slogan"><a href="http://www.synconics.com/" style="color: #000000 !important;"> Our Contact Details</a></h2></span>
+            <span class="o_ripple" style="background-color: rgb(31, 16, 140); color: rgb(255, 255, 255) !important; position: relative; overflow: hidden;height: 61px; width: 61px; top: -12.9688px; font-size: 18px;text-align: right;padding: 6px 12px;border-radius: 4px;border: 1px solid transparent;border-color: #4cae4c;z-index:1;">
+                     E-mail :
+                    <a href="http://www.synconics.com/opensource-erp-implementation-odoo-partner-india-gujarat-ahmedabad-expert-company-contact-us/" style="color: rgb(255, 255, 255) !important;">contact@synconics.com</a> |
+                    Skype : synconics.technologies  |
+                    Mobile : +91-942-686-4274
+
+            </span>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <div class="oe_span12">
+            <span style="font-size: 20px">For product demo, please generate a ticket and mention your preferred time and date. Please make sure the demo timing you mentioned are as per Indian Standard Time (IST), between 10:30 AM to 7:00 PM (IST), Monday to Friday.</span>
+        </div>
+    </div>
+</section>
